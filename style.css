@@ -1,0 +1,189 @@
+/* 全体 */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* header */
+.site-title {
+  width: 18rem;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+}
+
+/* mainvisual */
+#mainimg {
+  margin-bottom: 6rem;
+}
+
+/* INDEX */
+#index > div {
+  margin-bottom: 6rem;
+  background-color: #F5F5F5;
+  padding-bottom: 6rem;
+}
+
+ol {
+  width: fit-content;
+  margin: auto;
+  border: solid 1px #333333;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+
+li {
+  padding-top: 3rem;
+}
+
+li:last-child {
+  padding-bottom: 3rem;
+}
+
+/* photo */
+#works {
+  margin-bottom: 6rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-left {
+  width: 400px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+.photo-right {
+  width: 400px;
+  padding-bottom: 15px;
+}
+
+/* DETAIL */
+#detail > div {
+  background-color: #F5F5F5;
+  margin-bottom: 7.5rem;
+  padding-bottom: 6rem;
+}
+
+#left {
+  padding-left: 6rem;
+  padding-right: 7rem;
+  border-right: 1px solid #333333;
+  width: 37.5%;
+}
+
+#right {
+  padding-left: 4rem;
+  padding-right: 7rem;
+  width: 62.5%;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  padding-bottom: 1rem;
+}
+
+dd:last-child{
+  padding-bottom: 0;
+}
+
+#right > p {
+  padding-bottom: 2rem;
+}
+
+#link {
+  color: #333333;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .inner {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .site-title {
+    margin-left: 1rem;
+  }
+
+  .section-title {
+    padding-top: 4rem;
+  }
+
+  ol {
+    margin: 0 2rem;
+    padding: 0 2em 0 3rem;
+  }
+
+  .photo-left {
+    padding-right: 0;
+  }
+
+  .inner > .flex {
+    display: block;
+  }
+
+  #left {
+    padding: 0;
+    width: 90%;
+    margin-left: 2rem;
+    border-right: none;
+    border-bottom: solid 1px #333333;
+  }
+
+  #right {
+    padding: 0;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  dd:last-child {
+    margin-bottom: 4rem;
+  }
+
+  #right > p:first-child {
+    padding-top: 4rem;
+  }
+
+  #detail > div {
+    padding-bottom: 4rem;
+  }
+}
